@@ -55,6 +55,8 @@ print("---------------------------")
 print(f"Winner: {winner}")
 print("---------------------------")  
 
+# Export Text
+
 with open("02-Homework_03-Python_Instructions_PyPoll_Resources_election_data", "w") as txt_file:
     txt_file.write('Election Results ')
     txt_file.write('---------------- ')
