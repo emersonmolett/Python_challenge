@@ -54,3 +54,14 @@ for count in range(len(candidates)):
 print("---------------------------")
 print(f"Winner: {winner}")
 print("---------------------------")  
+
+with open("02-Homework_03-Python_Instructions_PyPoll_Resources_election_data", "w", netline='') as datafile:
+	writer = csv.writer(datafile)
+writer.writerow("Election Results\n")
+writer.writerow("--------------------------\n")
+writer.writerow(f"Total Votes: {number_votes}\n")
+for count in range(len(candidates)):
+    writer.writerow(f"{candidates[count]}: {percentages[count]}% ({vote_counts[count]})\n")
+writer.writerow("---------------------------\n")
+writer.writerow(f"Winner: {winner}\n")
+writer.writerow("---------------------------\n")
