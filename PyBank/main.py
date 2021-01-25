@@ -81,3 +81,11 @@ print(f"Greatest Decrease in Losses:  {worst_month} (${lowest_change})")
 
 # Export Text
 
+with open("02-Homework_03-Python_Instructions_PyBank_Resources_budget_data", "w") as txt_file:
+    txt_file.write('Financial Analysi' )
+    txt_file.write('------------------- ')
+    txt_file.write(f'Total Months: {count_months} ')
+    txt_file.write(f'Total: ${net_profit_loss} ')
+    txt_file.write(f'Average Change: ${average_profit_loss} ')
+    txt_file.write(f'Greates Increase in Profits: {best_month} (${highest_change}) ')
+    txt_file.write(f'Greatest Decease in Losses: {worst_month} (${lowest_change}) ')
