@@ -1,33 +1,18 @@
-# Python-challenge
+This is the first assignment using Python! The homework is broken into two (2) parts. PyBank analyzes financial information. PyPoll reviews election data.  For both sections, CSVs are read in and headers displayed. <br>
 
-this is where I will put together my project report
+For PyBank the code is written to display:
+<li>Total months</li>
+<li>Total</li>
+<li>Average change</li>
+<li>Greatest increase</li>
+<li>Greatest decrease</li>
 
-PyBank
-Your task is to create a Python script that analyzes the records to calculate each of the following:
+<br>
+For PyPoll the code is written to display:
+<li>Total votes</li>
+<li>Each candidates’ total votes</li>
+<li>Each candidates’ percent of votes</li>
+<li>Winner </li>
 
-The total number of months included in the dataset
-
-The net total amount of "Profit/Losses" over the entire period
-
-Calculate the changes in "Profit/Losses" over the entire period, then find the average of those changes
-
-The greatest increase in profits (date and amount) over the entire period
-
-The greatest decrease in losses (date and amount) over the entire period
-
-In addition, your final script should both print the analysis to the terminal and export a text file with the results.
-
-PyPoll
-Your task is to create a Python script that analyzes the votes and calculates each of the following:
-
-The total number of votes cast
-
-A complete list of candidates who received votes
-
-The percentage of votes each candidate won
-
-The total number of votes each candidate won
-
-The winner of the election based on popular vote.
-
-In addition, your final script should both print the analysis to the terminal and export a text file with the results.
+<br>
+The results for PyBank and PyPoll were both exported to text files. In both instances, code was run error free. 
